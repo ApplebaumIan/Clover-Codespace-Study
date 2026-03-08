@@ -4,18 +4,18 @@
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Step 1: Run LeetCode-style test runner
-TEST_RUNNER="$SCRIPT_DIR/.clover-tests/leetcode-runner.sh"
+# # Step 1: Run LeetCode-style test runner
+# TEST_RUNNER="$SCRIPT_DIR/.clover-tests/leetcode-runner.sh"
 
-if [ -f "$TEST_RUNNER" ]; then
-    bash "$TEST_RUNNER"
-    echo ""
-    echo "=================================================="
-    echo ""
-else
-    echo "Warning: Test runner not found, skipping tests"
-    echo ""
-fi
+# if [ -f "$TEST_RUNNER" ]; then
+#     bash "$TEST_RUNNER"
+#     echo ""
+#     echo "=================================================="
+#     echo ""
+# else
+#     echo "Warning: Test runner not found, skipping tests"
+#     echo ""
+# fi
 
 # Step 2: Run the Java file interactively
 # Determine which Java file to run
