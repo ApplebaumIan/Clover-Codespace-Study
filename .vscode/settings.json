@@ -77,5 +77,6 @@
   "clover.classCode": "R1068",
   "clover.classTitle": "Java 1068",
   "clover.postSurveyId": "2fc2b19c-f62b-4665-b2d0-2005327267da",
+  "clover.debug.apiVersion": "v2",
   "testing.automaticallyOpenTestResults": "never"
 }
